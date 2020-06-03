@@ -12,7 +12,6 @@ while playAgain == True:
     playerTurn = player2
 
     while len(board) > 0:
-
         playerTurn = nextPlayer(playerTurn, player1, player2)
 
         board = clean(board)
